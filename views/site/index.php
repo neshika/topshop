@@ -1,4 +1,9 @@
-<section id="slider"><!--slider-->
+
+	<ul class="accordion">
+	<?= \app\components\MenuWidget::widget(['tpl' => 'menu']); // выводим подключенный виджет из components, передаем доп. параметр тип=Меню или Селект?> 
+	</ul>
+	
+	<section id="slider"><!--slider-->
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -69,7 +74,7 @@
 				<div class="col-sm-3">
 					<div class="left-sidebar">
 						<h2>Category</h2>
-						<?= \app\components\MenuWidget::widget(['tpl' => 'menu']); // выводим подключенный виджет из components, передаем доп. параметр тип=Меню или Селект?> 
+					
 
 							
 						<div class="panel-group category-products" id="accordian"><!--category-productsr-->

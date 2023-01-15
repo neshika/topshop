@@ -2,6 +2,10 @@
 
  $('#sl2').slider();
 
+ $('.accordion').accordion({
+	heightStyle: 'content'
+});
+
 	var RGBChange = function() {
 	  $('#RGB').css('background', 'rgb('+r.getValue()+','+g.getValue()+','+b.getValue()+')')
 	};	
