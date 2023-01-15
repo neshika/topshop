@@ -34,8 +34,12 @@ class AppAsset extends AssetBundle
         'js/jquery.scrollUp.min.js',
         'js/price-range.js',
         'js/jquery.prettyPhoto.js',
-        'js/accordion.js',
         'js/jquery.cookie.js',
+        'js/accordion.js',
+        'js/jquery.accordion.js',
+        'js/jquery.cookie.js',
+        //'node_modules\jquery.cookie\jquery.cookie.js',
+        //'node_modules\jq-accordion\Gruntfile.js',
         'js/main.js',
         //из комментов к уроку
         ['js/html5shiv.js', 'condition' => 'lt IE 9', 'position' => \yii\web\View::POS_HEAD],

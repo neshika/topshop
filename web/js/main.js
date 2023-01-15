@@ -1,10 +1,17 @@
 /*price range*/
 
  $('#sl2').slider();
+ 
 
- $('.accordion').accordion({
-	heightStyle: 'content'
+ //$(function(){}) 
+ jQuery(document).ready(function($) {
+	jQuery('.accordion').dcAccordion({
+		speed: 300
+	});
 });
+
+
+
 
 	var RGBChange = function() {
 	  $('#RGB').css('background', 'rgb('+r.getValue()+','+g.getValue()+','+b.getValue()+')')
